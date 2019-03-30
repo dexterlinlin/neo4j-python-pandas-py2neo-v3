@@ -30,3 +30,21 @@ DataToNeo4jClass.py
 ### 更新neo4j_matrix.py代码，将知识图谱中数据抽取转化成矩阵，为机器学习模型提供数据
 
 ## Enjoy it!
+
+## 2019.3.30
+4.安装Neo4j
+https://neo4j.com/licensing/ 选择Community Edition
+5、关于python requirements安装
+requirements.txt比较老，建议运行完pip install -r requirements.txt,再整体更新所有Python库
+
+
+
+### Neo4j教程
+https://www.w3cschool.cn/neo4j/
+https://cloud.tencent.com/developer/article/1336299
+
+豆瓣电影实战：
+https://blog.csdn.net/Chen18125/article/details/84101458
+
+### TODO
+ Vue + Django + Neo4j 完整实例

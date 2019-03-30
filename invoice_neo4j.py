@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from invoice_data.dataToNeo4jClass.DataToNeo4jClass import DataToNeo4j
+from dataToNeo4jClass.DataToNeo4jClass import DataToNeo4j
 import os
 import pandas as pd
 
