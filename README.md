@@ -48,3 +48,7 @@ https://blog.csdn.net/Chen18125/article/details/84101458
 
 ### TODO
  Vue + Django + Neo4j 完整实例
+ 
+ open neo4j browers
+ :play movies
+match (p:Person)-[relatedTo]-(thematrix{title:'The Matrix'}) return p,Type(relatedTo),relatedTo,thematrix
