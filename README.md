@@ -52,3 +52,12 @@ https://blog.csdn.net/Chen18125/article/details/84101458
  open neo4j browers
  :play movies
 match (p:Person)-[relatedTo]-(thematrix{title:'The Matrix'}) return p,Type(relatedTo),relatedTo,thematrix
+
+pip install --upgrade name
+import pip
+from subprocess import call
+ 
+批量更新pip库：
+for dist in pip.get_installed_distributions():
+    call("pip install --upgrade " + dist.project_name, shell=True)
+
